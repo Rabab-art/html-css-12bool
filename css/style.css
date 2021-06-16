@@ -33,3 +33,20 @@
     color: white;
     
 }
+
+@media screen and (max-width: 575px){
+    .row{
+        width:100%;
+        background-color: red;
+        /* display: block; */
+        flex-direction: column; 
+    }   
+
+    .col{
+        background-color: red;
+        width: 100%;
+        flex-grow: 1;
+        margin: 0 auto;      
+    }
+
+}
