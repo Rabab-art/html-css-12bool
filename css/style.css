@@ -14,5 +14,22 @@
     border: 1px solid black;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
 
 
+.box-float{
+    float:left;
+    height: 90%;
+    margin: 0 5px;  
+    display: flex; 
+    align-items: center;
+    border:1px solid white;
+    background-color: rgb(247, 111, 134);
+    color: white;
+    
+}
