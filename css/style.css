@@ -1,0 +1,18 @@
+
+.row{
+    background-color: pink;
+    height: 200px;
+}
+
+.col{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.col-11{
+    border: 1px solid black;
+}
+
+
+
